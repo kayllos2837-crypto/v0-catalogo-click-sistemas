@@ -151,8 +151,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onNavigateToSystem }
           </div>
         </div>
 
-        <div className="border-t border-border pt-6 sm:pt-8 text-center">
-          <p className="text-muted-foreground text-xs sm:text-sm">
+        <div className="border-t pt-6 sm:pt-8 text-center border-primary-foreground">
+          <p className="text-muted-foreground text-xs sm:text-sm bg-primary">
             © 2025 Click Sistemas - Todos os direitos reservados.
           </p>
         </div>

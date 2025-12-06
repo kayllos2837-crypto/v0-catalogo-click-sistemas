@@ -36,7 +36,7 @@ export const AdditionalServicesSection: React.FC<AdditionalServicesSectionProps>
               <h3 className="text-lg font-bold text-foreground mb-2">{addon.nome}</h3>
               <p className="text-muted-foreground text-sm mb-4 min-h-[40px]">{addon.descricao}</p>
 
-              <div className="border-t pt-4 flex items-center justify-between leading-7 border-primary-foreground">
+              <div className="pt-4 flex items-center justify-between leading-7">
                 <div>
                   <span className="block text-xs text-muted-foreground uppercase">Valor</span>
                   <div className="text-foreground font-bold">

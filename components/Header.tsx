@@ -155,7 +155,7 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate, onSystemSelect }) =>
               </div>
             )}
 
-            <div className="flex items-center gap-4 ml-2 border-l pl-6 border-primary-foreground">
+            <div className="flex items-center gap-4 ml-2">
               <button
                 onClick={toggleTheme}
                 className="p-2 rounded-btn hover:bg-muted text-muted-foreground hover:text-primary transition-colors"
