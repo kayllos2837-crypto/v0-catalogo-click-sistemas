@@ -204,6 +204,14 @@
     color: rgb(0, 0, 0) !important;
   }
 
+  /* Garantir que bordas no dark mode sejam cinza, não brancas */
+  .dark {
+    border-color: oklch(0.25 0 0);
+  }
+  .dark .border-border {
+    border-color: oklch(0.25 0 0) !important;
+  }
+
   /* Glassmorphism utility classes */
   .glass {
     background: var(--glass-bg);

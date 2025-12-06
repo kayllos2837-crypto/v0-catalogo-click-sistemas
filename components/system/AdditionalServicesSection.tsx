@@ -25,7 +25,7 @@ export const AdditionalServicesSection: React.FC<AdditionalServicesSectionProps>
               key={addon.id}
               className="group bg-card border border-border rounded-card p-6 hover:border-primary/50 hover:-translate-y-1 transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-lg bg-background border border-border flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+              <div className="w-12 h-12 rounded-lg bg-background border border-border flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-primary-foreground dark:group-hover:text-black transition-colors">
                 {addon.icone ? (
                   <img src={addon.icone || "/placeholder.svg"} alt={addon.nome} className="w-6 h-6 object-contain" />
                 ) : (
