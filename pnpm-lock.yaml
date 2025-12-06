@@ -44,9 +44,6 @@ importers:
       lucide-react:
         specifier: ^0.454.0
         version: 0.454.0(react@19.2.1)
-      next:
-        specifier: 16.0.7
-        version: 16.0.7(@babel/core@7.28.5)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)(sass@1.94.2)
       next-themes:
         specifier: latest
         version: 0.4.6(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
@@ -2583,7 +2580,8 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@next/env@16.0.7': {}
+  '@next/env@16.0.7':
+    optional: true
 
   '@next/swc-darwin-arm64@16.0.7':
     optional: true
@@ -2787,6 +2785,7 @@ snapshots:
   '@swc/helpers@0.5.15':
     dependencies:
       tslib: 2.8.1
+    optional: true
 
   '@tailwindcss/node@4.1.9':
     dependencies:
@@ -2997,7 +2996,8 @@ snapshots:
     dependencies:
       clsx: 2.1.1
 
-  client-only@0.0.1: {}
+  client-only@0.0.1:
+    optional: true
 
   clsx@2.1.1: {}
 
@@ -3426,6 +3426,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+    optional: true
 
   node-addon-api@7.1.1:
     optional: true
@@ -3461,6 +3462,7 @@ snapshots:
       nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
+    optional: true
 
   postcss@8.5.0:
     dependencies:
@@ -3737,6 +3739,7 @@ snapshots:
       react: 19.2.1
     optionalDependencies:
       '@babel/core': 7.28.5
+    optional: true
 
   stylus@0.64.0:
     dependencies:
