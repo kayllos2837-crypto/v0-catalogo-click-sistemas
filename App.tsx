@@ -18,8 +18,8 @@ import { PlansPage } from "./pages/admin/catalogo/PlansPage"
 import { AddonsPage } from "./pages/admin/catalogo/AddonsPage"
 import { ResourcesPage } from "./pages/admin/catalogo/ResourcesPage"
 import { LoginPage } from "./pages/admin/LoginPage"
-import { createClient } from "./lib/supabase/client"
-import { getConfiguracoes } from "./lib/supabase/data-service"
+import { createClient } from "@/lib/supabase/client"
+import { getConfiguracoes } from "@/lib/supabase/data-service"
 
 type Route = "home" | "system" | "admin-login" | AdminRoute
 
