@@ -11,6 +11,7 @@
   "dependencies": {
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
+    "@tailwindcss/postcss": "^4.1.9",
     "@vercel/analytics": "latest",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -44,7 +45,7 @@
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "^5.0.0",
     "postcss": "^8.5",
-    "tailwindcss": "4.1.17",
+    "tailwindcss": "^4.1.9",
     "typescript": "^5",
     "vite": "^6.2.0"
   }
