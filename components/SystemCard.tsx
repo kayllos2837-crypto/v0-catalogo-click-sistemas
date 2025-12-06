@@ -43,7 +43,7 @@ export const SystemCard: React.FC<SystemCardProps> = ({ system, onClick }) => {
           {system.descricaoCurta}
         </p>
 
-        <button className="w-full py-2.5 sm:py-3 px-4 rounded-btn bg-muted border border-border text-foreground font-medium hover:bg-primary hover:text-primary-foreground hover:border-primary active:bg-primary-hover transition-all flex items-center justify-center gap-2 group/btn text-sm sm:text-base">
+        <button className="w-full py-2.5 sm:py-3 px-4 rounded-btn bg-muted border border-border text-foreground font-medium hover:bg-primary hover:text-primary-foreground dark:hover:text-black hover:border-primary active:bg-primary-hover transition-all flex items-center justify-center gap-2 group/btn text-sm sm:text-base">
           Saiba mais
           <ArrowRight size={16} className="transform group-hover/btn:translate-x-1 transition-transform" />
         </button>
