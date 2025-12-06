@@ -199,6 +199,35 @@
     padding-top: env(safe-area-inset-top);
   }
 
+  /* Forçar bordas finas e com cores corretas em todos os elementos */
+  .border {
+    border-width: 1px !important;
+  }
+
+  .border-border {
+    border-color: oklch(0.88 0 0) !important;
+  }
+
+  .dark .border-border {
+    border-color: oklch(0.25 0 0) !important;
+  }
+
+  .border-primary {
+    border-color: rgb(152, 181, 37) !important;
+  }
+
+  .dark .border-primary {
+    border-color: rgb(204, 255, 0) !important;
+  }
+
+  /* Garantir que cards mantenham bordas finas */
+  .border-t,
+  .border-b,
+  .border-l,
+  .border-r {
+    border-width: 1px !important;
+  }
+
   /* Removi as regras genéricas que forçavam bordas em todos elementos */
   /* Apenas forçar cor preta nos botões primary e seus estados de hover */
   .dark .bg-primary {
