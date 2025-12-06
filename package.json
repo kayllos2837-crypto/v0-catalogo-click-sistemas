@@ -6,7 +6,9 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "lint": "echo 'No lint configured'",
+    "preview": "vite preview",
+    "start": "vite preview"
   },
   "dependencies": {
     "@supabase/ssr": "latest",
@@ -21,6 +23,7 @@
     "less": "latest",
     "lightningcss": "latest",
     "lucide-react": "^0.454.0",
+    "next": "16.0.7",
     "next-themes": "latest",
     "react": "^19.2.1",
     "react-dom": "latest",
