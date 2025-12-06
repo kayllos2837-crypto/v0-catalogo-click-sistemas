@@ -199,17 +199,19 @@
     padding-top: env(safe-area-inset-top);
   }
 
-  /* Forçar texto preto no botão primary dark mode */
+  /* Removi as regras genéricas que forçavam bordas em todos elementos */
+  /* Apenas forçar cor preta nos botões primary e seus estados de hover */
   .dark .bg-primary {
     color: rgb(0, 0, 0) !important;
   }
 
-  /* Garantir que bordas no dark mode sejam cinza, não brancas */
-  .dark {
-    border-color: oklch(0.25 0 0);
+  .dark .hover\:bg-primary:hover {
+    color: rgb(0, 0, 0) !important;
   }
-  .dark .border-border {
-    border-color: oklch(0.25 0 0) !important;
+
+  /* Forçar texto preto em elementos com hover que mudam para bg-primary */
+  .dark .hover\:text-primary-foreground:hover {
+    color: rgb(0, 0, 0) !important;
   }
 
   /* Glassmorphism utility classes */

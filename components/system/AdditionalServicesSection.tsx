@@ -10,7 +10,7 @@ export const AdditionalServicesSection: React.FC<AdditionalServicesSectionProps>
   if (addons.length === 0) return null
 
   return (
-    <section className="py-20 bg-dark-surface border-t border-border">
+    <section className="py-20 border-t border-border bg-muted dark:bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-foreground mb-4">Serviços Adicionais</h2>
@@ -36,7 +36,7 @@ export const AdditionalServicesSection: React.FC<AdditionalServicesSectionProps>
               <h3 className="text-lg font-bold text-foreground mb-2">{addon.nome}</h3>
               <p className="text-muted-foreground text-sm mb-4 min-h-[40px]">{addon.descricao}</p>
 
-              <div className="border-t border-border pt-4 flex items-center justify-between">
+              <div className="border-t pt-4 flex items-center justify-between leading-7 border-primary-foreground">
                 <div>
                   <span className="block text-xs text-muted-foreground uppercase">Valor</span>
                   <div className="text-foreground font-bold">

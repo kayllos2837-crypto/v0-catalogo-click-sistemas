@@ -28,13 +28,13 @@ export const PlansSection: React.FC<PlansSectionProps> = ({ plans, system }) => 
               className={`relative flex flex-col p-6 sm:p-8 rounded-card border transition-all duration-300 group
                 ${
                   plano.destaquePopular
-                    ? "bg-card border-primary shadow-[0_0_30px_rgba(204,255,0,0.15)] lg:scale-105 z-10"
-                    : "bg-card border-border hover:border-muted-foreground"
+                    ? "bg-card border-primary shadow-[0_0_30px_rgba(204,255,0,0.15)] lg:scale-105 z-10 hover:-translate-y-2 hover:shadow-[0_10px_50px_rgba(204,255,0,0.3)]"
+                    : "bg-card border-border hover:-translate-y-2 hover:shadow-[0_10px_50px_rgba(204,255,0,0.25)]"
                 }
               `}
             >
               {plano.destaquePopular && (
-                <div className="absolute -top-3 sm:-top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground font-bold px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm uppercase tracking-wide shadow-glow whitespace-nowrap">
+                <div className="absolute -top-3 sm:-top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground dark:text-black font-bold px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm uppercase tracking-wide shadow-glow whitespace-nowrap">
                   Mais Popular
                 </div>
               )}
