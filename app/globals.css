@@ -199,6 +199,11 @@
     padding-top: env(safe-area-inset-top);
   }
 
+  /* Forçar texto preto no botão primary dark mode */
+  .dark .bg-primary {
+    color: rgb(0, 0, 0) !important;
+  }
+
   /* Glassmorphism utility classes */
   .glass {
     background: var(--glass-bg);
